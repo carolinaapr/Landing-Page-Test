@@ -21,15 +21,15 @@ nav {
 .teamtwo h1{
     font-size: 38px;
     font-weight: bolder;
-    color: black;
+    color: white;
     font-weight: 600;
     transform: translate(0,-1500%);
 }
 
 .teamtwo p{
     font-size: 36px;
-    color: black;
-    text-shadow: 1px 1px white;
+    color: white;
+    text-shadow: 1px 1px black;
     font-weight: 100;
     transform: translate(0,-1250%);   
 }
