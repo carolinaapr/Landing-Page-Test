@@ -11,9 +11,13 @@
 </head>
 <style>
     #grad1 {
-      height: 200px;
-      background-color: black; /* For browsers that do not support gradients */
+      height: 10px;
+      background-color: #004e92; /* For browsers that do not support gradients */
       background-image: linear-gradient(to right, #0F2027,#004e92);
+    }
+
+    #navbarSupportedContent{
+      background-color: #004e92;
     }
 
     #carouselExampleIndicators{
@@ -62,26 +66,25 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#" id="opsinavbar">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#" id="opsinavbar">Games <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Games
+              <a class="nav-link dropdown-toggle" href="#" id="opsinavbar" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Accounts
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Stray</a>
-                <a class="dropdown-item" href="#">Rock Paper Scissor</a>
-                <a class="dropdown-item" href="#"> Fall Guys</a>
+                <a class="dropdown-item" href="#">Login</a>
+                <a class="dropdown-item" href="#">Sign Up</a>
               </div>
             </li>
             <li class="nav-item active">
-                <a class="nav-link" href="#">Accounts <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="#" id="opsinavbar">Leaderboards <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item active">
-                <a class="nav-link" href="#">Leaderboards <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item active">
-                <a class="nav-link" href="#">Career <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="#" id="opsinavbar">Career <span class="sr-only">(current)</span></a>
               </li>
           </ul>
         </div>
@@ -232,7 +235,7 @@
     
       
         <!-- Copyright -->
-        <div class="text-center p-3" style="background-color: darkgray; color: black;" >
+        <div class="text-center p-3" style="background-color: #004e92; color: white;" >
           © 2022 Copyright:
           <a class="text-white" href="https://mdbootstrap.com/">Team Two Entertaiment, all rights reserved</a>
         </div>
